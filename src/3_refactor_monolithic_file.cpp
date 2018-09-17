@@ -11,8 +11,8 @@
 using namespace std;
 
 //default filenames for test
-const char* 		SOURCE_FILE = "testdata.txt";
-const char*		 	RESULTS_FILE = "results.txt";
+const char* const 	SOURCE_FILE = "testdata.txt";
+const char*	const	RESULTS_FILE = "results.txt";
 //default return types
 const int 			SUCCESS			 				=  0;
 const int 			FAIL							=  SUCCESS - 1;
