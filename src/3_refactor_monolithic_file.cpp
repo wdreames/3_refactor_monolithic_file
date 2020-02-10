@@ -7,41 +7,15 @@
 //============================================================================
 #include <iostream>
 #include <vector>
+#include "../includes_usr/constants.h"
+#include "../includes_usr/utilities.h"
 
 using namespace std;
+using namespace Variables;
 
-//default filenames for test
-const char* const 	SOURCE_FILE = "testdata.txt";
-const char*	const	RESULTS_FILE = "results.txt";
-//default return types
-const int 			SUCCESS			 				=  0;
-const int 			FAIL							=  SUCCESS - 1;
-const int 			COULD_NOT_OPEN_FILE				=  SUCCESS - 2;
-const int			UNIMPLEMENTED					=  SUCCESS - 3;
-
-
-enum SORT_ORDER { CPU_TIME, PROCESS_NUMBER, START_TIME };
-
-
-//attempt to open file 'filename' and read in all data
-//returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
-int loadData(const char* filename){
-	//fill in
-	return UNIMPLEMENTED;
-}
-
-//attempt to create or open file 'filename' to write all data to  
-//returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
-int saveData(const char* filename){
-	//fill in
-	return UNIMPLEMENTED;
-}
-
-//sorts data based on mySortOrder (thats what void means)
-void sortData(SORT_ORDER mySortOrder){
-	//fill in
-}
 int main() {
+	cout << "The code works!";
+
 	int iRet = FAIL;
 
 	//load data
